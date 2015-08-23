@@ -1,3 +1,13 @@
+# IDE JetBrains WebStorm
+.idea
+
+# IDE Sublime
+*.sublime-*
+
+# IDE vim
+*.swp
+*.un~
+
 # Logs
 logs
 *.log
