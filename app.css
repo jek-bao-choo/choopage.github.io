@@ -1,0 +1,21 @@
+.tpad{
+    padding-top: 10px;
+}
+
+.bookImage{
+    padding-top: 15px;
+}
+
+/* commented out because haven't decided when & how to use it. Do not want to pollute.
+.bookImage{
+    width:187px;
+    height:283px;
+    overflow:hidden;
+}
+
+.toolImage{
+    width:80px;
+    height:80px;
+    overflow:hidden;
+}
+*/

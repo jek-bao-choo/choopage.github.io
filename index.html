@@ -1,58 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- The below 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <title>home | CHOO Jek Bao</title>
 
-    <!-- Twitter Bootstrap compiled and minified CSS -->
+    <!-- load Twitter Bootstrap compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-    <!-- Twitter Boostrap optional theme (Theme Readable) from Bootswatch.com  -->
+    <!-- load Twitter Boostrap optional theme (Theme Readable) from Bootswatch.com  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/readable/bootstrap.min.css">
+
+    <!-- load customised ccs -->
+    <link rel="stylesheet" href="app.css"/>
 </head>
 <body>
 <!-- START OF INTRO PANEL -->
 <div class="intro">
     <div class="container">
         <div class="row">
-            <div class="jumbotron">
+            <div class="well">
                 <!--activity image-->
-                <!--
-                <img class="img-responsive img-rounded" src="images/size_is_700px_v1.jpg"
-                     alt="photo">-->
-
+                <!-- TODO Jek: image carousel -->
+                <img class="img-responsive img-rounded" src="images/others/jek-and-fiancee-paris-30-May-2015.jpg"
+                     alt="photo">
                 <!--activity title -->
                 <br/>
 
                 <p>
                     My name is Choo Jek Bao, a software developer. I have keen interest in leveraging on technologies to
                     solve problems. Thus, I enjoy designing and developing toy products outside of my full-time job.
-                    This interest keeps me going, and staying sharp.
+                    This interest keeps me going and staying sharp.
                 </p>
 
                 <p>
                     I believe in structuring my self-education after graduating from university, especially while
-                    working full-time. To begin, I make reading a pleasant habit. And now I'm amazed at how much more
-                    interested I'm in reading than I used to be during my school days.
+                    working full-time. To begin, I make reading a pleasant habit. I'm amazed at how much more
+                    interested I am in reading than I used to be during my school days.
                 </p>
 
                 <p>
-                    Besides working and learning, I also strive towards maintaining a balanced and righteous life. As
-                    such, I set aside time for recreational activities. I enjoy swimming and Latin ballroom dancing. I
-                    value the importance of meditation, and practising it. All in all, these activities keep me active,
-                    as well as allowing for family time and "me" time. Along with these, I observe the five precepts of
-                    Buddhism, and the practice of charity.
+                    Besides working and learning, I also strive towards maintaining a balanced and righteous life. I set
+                    aside time for recreational activities which I enjoy such as swimming and Latin ballroom dancing. I
+                    also value the importance of meditation, and practising it. All in all, these activities keep me
+                    active, as well as allowing for family time and "me" time. Along with these, I observe the five
+                    precepts of Buddhism, and the practice of charity.
                 </p>
             </div>
-            <!-- END OF JUMBOTRON -->
+            <!-- END OF WELL -->
         </div>
     </div>
 </div>
 <!-- END OF INTRO PANEL -->
 
+<!-- START OF BOOKS & VIDEOS I LIKE PANEL-->
+<div class="books">
+    <div class="container">
+        <div class="row">
+            <div class="well">
+                <h3>Books & Videos I Like</h3>
+                <hr/>
+                <!-- start of panel body -->
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#general" data-toggle="tab" aria-expanded="true">General</a></li>
+                    <li class=""><a href="#cs" data-toggle="tab" aria-expanded="false">Computer Science</a></li>
+                    <li class=""><a href="#wishlist" data-toggle="tab" aria-expanded="false">Wishlist</a></li>
+                </ul>
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade active in" id="general">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/The-Age-of-Turbulence.png"
+                                     alt="The-Age-of-Turbulence"/>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/Thailand-and-its-History.png"
+                                     alt=""/>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/Personal-Branding-for-Men.png"
+                                     alt=""/>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/One-Up-on-Wall-Street.png"
+                                     alt=""/>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/Model-Business-Letters.png"
+                                     alt=""/>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/Common-Wealth.png"
+                                     alt=""/>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/Grow-Hair-Fast.png"
+                                     alt=""/>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/HBR-Getting-The-Mentoring-You-Need.png"
+                                     alt=""/>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/His-Needs-Her-Needs.png"
+                                     alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="cs">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/Getting-Mean-with-Mongo-Express,-Angular-and-Node.png"
+                                     alt=""/>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/Java-Concepts.png"
+                                     alt=""/>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/Mule-esb-cookbook.png"
+                                     alt=""/>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/Object-Oriented-Javascript.png"
+                                     alt=""/>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/Practical-Migration.png"
+                                     alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="wishlist">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/Intro-to-Algorithms.png"
+                                     alt=""/>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/Hapi.png"
+                                     alt=""/>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/Discrete-Math.png"
+                                     alt=""/>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 bookImage">
+                                <img class="img-responsive"
+                                     src="images/books/Algorithms-unlocked.png"
+                                     alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of panel body -->
+            </div>
+            <!-- END OF WELL -->
+        </div>
+    </div>
+</div>
+<!-- END OF BOOKS & VIDEOS I LIKE PANEL -->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
