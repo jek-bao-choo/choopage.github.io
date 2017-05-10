@@ -1,10 +1,12 @@
-.tpad{
-    padding-top: 10px;
-}
-
 .bookImage{
     padding-top: 15px;
 }
+
+.bodyBottomPad {
+    padding-bottom: 70px;
+}
+
+
 
 /* commented out because haven't decided when & how to use it. Do not want to pollute.
 .bookImage{
